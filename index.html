@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body{
+    display: flex;
+    justify-self: center;
+    background-color: #f4d03f ;
+   }
+
+   .cart{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: fit-content;
+    gap: 20px;
+    margin-top: 150px ;
+    padding: 20px;
+    box-shadow: 4px 4px 0px 4px rgba(0, 0, 0, 1);
+    
+   }
+   .mini-container{
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+   }
+   .mini-container > p {
+    align-items: center;
+   }
+   .article {
+    width: 100%;
+    border-radius: 10px;
+   }
+   .avatar{
+    
+    width: 30px ;
+   }
+   .learning{
+    border: 1px solid #f4d03f;
+    padding: 5px 10px;
+    display: inline-block;
+    width: 65px;
+    background-color: #f4d03f;
+    border-radius: 5px;
+    font-weight: bold;
+    box-sizing:content-box;
+   }
+   h2:hover{
+    color: #f4d03f;
+   }
+  </style>
+</head>
+<body>
+  <main class="cart">
+    <img class="article" src="./assets/images/illustration-article.svg" alt="">
+    <span class="learning">Learning</span>
+
+    <p>Published 21 Dec 2023</p>
+
+    <h2>HTML & CSS foundations</h2>
+
+    <p style="line-height: 1.6; font-size: 18px; color: #959594;">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+    
+    <div class="mini-container">
+      <img class="avatar" src="./assets/images/image-avatar.webp" alt="">
+      <p style="font-weight: bold;">Greg Hooper</p>
+    </div>
+
+  
+
+  
+
+  
+
+  
+  </main>
+ 
+</body>
+</html>
